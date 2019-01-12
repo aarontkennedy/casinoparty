@@ -78,6 +78,10 @@ section {
     list-style-type: none;
 }
 
+address ul a{
+    color: #eeeeee;
+}
+
 #games ul li , #complain ul li {
     margin-bottom: 3rem;
     position: relative;
@@ -161,10 +165,14 @@ address {
     margin: 0 auto 1rem auto;
 }
 
-#contact li {
+#contactInfo {
+    margin-top: 3rem;
+}
+
+#contactInfo li {
     font-size: 1.25rem;
 }
 
-#contact li a {
+#contactInfo li a {
     color: #eeeeee;
 }
