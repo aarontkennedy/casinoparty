@@ -65,6 +65,10 @@ nav.mainNavigation {
     background-image: linear-gradient(rgb(0,104,61), #111111);
 }
 
+section {
+    position: relative;
+}
+
 .mainDescription {
     margin: 3rem auto 1rem auto;
 }
