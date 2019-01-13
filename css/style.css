@@ -20,6 +20,15 @@ a:hover {
 
 h1 {
     border-bottom: 2px solid #eeeeee;
+    font-size: 2rem;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        border-bottom: 2px solid #eeeeee;
+        font-size: 3rem;
+    }
 }
 
 header {
@@ -105,16 +114,36 @@ footer {
 
 #games h2, #complain h2 {
     display: inline-block;
-    height: 2rem;
     vertical-align: middle;
     margin-left: .5rem;
+    height: 1.25rem;
+    font-size: 1.25rem;
 }
 
 #games .card {
     display: inline-block;
     border-radius: 3px;
-    height: 3rem;
+    height: 2rem;
     max-width:60px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #games h2, #complain h2 {
+        height: 1.5rem;
+        font-size: 1.5rem;
+    }
+    #games .card {
+        height: 3rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #games h2, #complain h2 {
+        height: 2rem;
+        font-size: 2rem;
+    }
 }
 
 #games .gameTitle, #complain .gameTitle  {
