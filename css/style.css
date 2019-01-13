@@ -113,26 +113,25 @@ footer {
 }
 
 #games h2, #complain h2 {
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
     margin-left: .5rem;
-    height: 1.25rem;
     font-size: 1.25rem;
 }
 
 #games .card {
     display: inline-block;
     border-radius: 3px;
-    height: 2rem;
     max-width:60px;
+    height: 2rem;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
     #games h2, #complain h2 {
-        height: 1.5rem;
         font-size: 1.5rem;
     }
+    
     #games .card {
         height: 3rem;
     }
@@ -141,7 +140,6 @@ footer {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     #games h2, #complain h2 {
-        height: 2rem;
         font-size: 2rem;
     }
 }
